@@ -3,6 +3,7 @@
 * ------------
 * animate.css
 * */
+
 Element.prototype.appendAfter = function (element) {
     element.parentNode.insertBefore(this, element.nextSibling)
 }
@@ -20,7 +21,6 @@ $.modal = function (options) {
         },
         close() {
             $modal.classList.remove('open')
-            //this.destroy()
         },
         destroy() {
             $modal.parentNode.removeChild($modal)

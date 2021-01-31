@@ -5,12 +5,12 @@ const options = {
     content: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cum dolorem doloribus ex maxime nesciunt omnis quas, temporibus veniam!</p>',
     width: '400px',
     footerButtons: [
-        {text: 'Ok', style: 'primery', handler() {
-                console.log('Primery clicked')
+        {text: 'Ok', style: 'primary', handler() {
+                console.log('Primary btn clicked')
                 modal.close()
             }},
-        {text: 'Cancel', style: 'cancel', handler() {
-                console.log('Cancel clicked')
+        {text: 'Cancel', style: 'danger', handler() {
+                console.log('Cancel btn clicked')
                 modal.close()
             }}
     ]
